@@ -1,0 +1,26 @@
+.boton-contenedor{
+    height: 83px;
+    display: flex;
+    flex: 1 1;/* Esta propiedad nos dice que ambos eleementos se distribuyan equitativamente*/
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #1b1b32;
+    color: white;
+    border-radius: 20px;
+    border:2px solid white;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;/* no permite que el texto sea seleccionado */
+
+}
+.operador{
+    background-color: #00471b;
+}
+.boton-contenedor:hover{
+    background-color: blueviolet;
+}
+.operador:hover{
+    background-color: coral;
+}
